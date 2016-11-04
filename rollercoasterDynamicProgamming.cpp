@@ -8,7 +8,7 @@
 using namespace std;
 
 // Please fill in your USC username
-const string USCusername = "alecsanf";
+const string fileName = "rollerCoasterResult";
 
 int max(int s, vector < pair <int, int> > &RCs, int *mem);
 
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 	}
 	int answer = maxRollercoasters(RCs);
 	std::ofstream out;
-	out.open(USCusername + ".txt", std::ios::app);
+	out.open(fileName + ".txt", std::ios::app);
 	out << answer << endl;
 	return 0;
 }
