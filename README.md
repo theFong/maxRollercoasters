@@ -7,11 +7,11 @@ Corey loves riding rollercoasters, but hates waiting in lines. Luckily for him, 
 Constraints: 0 ≤ ti, fi ≤ 109. All ti values will be distinct. All fi values will be distinct. Your code will need to run in O(n2) (where n is the number of roller-coasters) in order to pass all test cases.
 
 ### Run
-'''
+```
 ./rollercoasterDynamicProgamming 4 2 42 3 59 8 12 4 1 5 5 7 
-'''
+```
 
 ### Result
-'''
+```
 3
-'''
+```
